@@ -9,9 +9,8 @@ for (var btn of btnList) {
     }
   }
 for (var text of textList) {
-    //console.log(elem); // "test", "passed"
-    //console.log(elem.type);
-    text.value="-";
-    //  document.getElementById(elem.id).nodeValue = "-";
-    //console.log(elem);
+    
+    text.value="No opinion";
+    
+    //console.log(text);
   }
