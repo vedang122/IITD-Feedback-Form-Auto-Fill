@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+  
+    "name": "IITD Faculty Feedback Form Auto Fill",
+    "description": "This extension can be used to automatic fill faculty feedback form ;)",
+    "version": "1.0",
+  
+    "browser_action": {
+    "default_icon": "iitd.png",
+    "default_title": "Click Here!"
+    },
+  
+    "content_scripts": [
+      {
+        "js": ["eacads.js"],
+        "matches": ["https://eacademics.iitd.ac.in/"]
+      }
+    ],
+    
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+        "128" : "iitd.png"
+    },
+    "permissions": [
+      "https://eacademics.iitd.ac.in/*"
+     ],
+     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
