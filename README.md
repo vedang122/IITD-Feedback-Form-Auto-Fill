@@ -13,6 +13,10 @@ Follow these steps to auto-fill the feedback form -
 - For any course whose form you want to auto fill select the feedback form and then click on the extension icon. 
 - Form automatically gets filled with random responses. You can change the responses as per your wish. Submit the form.
 
+
+![alt text](https://github.com/vedang122/IITD-Feedback-Form-Auto-Fill/blob/main/unfilledform.png)
+![alt text](https://github.com/vedang122/IITD-Feedback-Form-Auto-Fill/blob/main/filledform.png)
+
 ###### This extension has been tested only on Chromium based browsers like Google Chrome, Microsoft Edge etc. 
 ###### This extension fills the form with random responses.
 ###### This extension works on Eacademics site (https://eacademics.iitd.ac.in/) only, in future if academic website of IITD changes this wouldn't work. 
